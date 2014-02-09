@@ -1,0 +1,46 @@
+.contenidos {
+	margin-top: 60px;
+}
+
+/* PopUp Window */
+.popup-window {
+	background-color: #fff;
+	position: absolute;
+	border: solid 1px silver;
+	width: 450px;
+	height: 300px;
+	z-index: 10000;
+	border-radius: 5px;
+	box-shadow: -2px 1px 11px -3px;
+}
+
+.popup-window-title {
+	border-bottom: solid 1px silver;
+	padding: 10px 10px 5px 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.popup-window-move {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 25px;
+	bottom: 0px;
+	cursor: move;
+	z-index: 1;
+}
+
+.popup-window-body {
+	position: absolute;
+	top: 40px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 10px 5px 5px 10px;
+	overflow: auto;
+}
